@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.imagen {
+  background-position: center;
+  background-size: cover;
+  flex: 0 0 33%;
+  transition: background-image 0.2s;
+}
+
+.imagen1 {
+  background-image: url(/imagenes/drake.jpg);
+}
+
+.imagen1:hover {
+  background-image: url(/imagenes/drakealbum.jpg);
+}
+
+.imagen2 {
+  background-image: url(/imagenes/eminem.jpg);
+  background-position: 0%;
+}
+
+.imagen2:hover {
+  background-image: url(/imagenes/eminemAlbum.jpg);
+  background-position: center;
+}
+
+.imagen3 {
+  background-image: url(/imagenes/theweeknd.jpg);
+}
+
+.imagen3:hover {
+  background-image: url(/imagenes/theweekndalbum.jpg);
+}
